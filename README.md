@@ -28,5 +28,5 @@
 
 ## 3. API
 ### key 발급 방법
-  - <a href="https://stdict.korean.go.kr/openapi/openApiInfo.do">국입국어원 표준국어대사</a>
+  - <a href="https://stdict.korean.go.kr/openapi/openApiInfo.do">국립국어원 표준국어대사</a>
   - 링크에서 회원 가입 후 키 발급 
