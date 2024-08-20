@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./common.css" />
+        <script src="./common.js" defer></script>
+    </head>
+    <body>
+        <div class="game-conainer">
+            <header class="game-header">
+                <h1>10팀 끝말잇기</h1>
+            </header>
+            <section class="game-wrap">
+                <ul class="game-life">
+                    <li>❤︎</li>
+                    <li>❤︎</li>
+                    <li>❤︎</li>
+                </ul>
+                <p class="game-score">현재 점수: <span></span></p>
+                <div class="game-box">
+                    <div class="game-timer">
+                        <div class="timer-line"></div>
+                        <div><span class="timer-sec">10</span>초</div>
+                    </div>
+                    <p class="game-title">- 끝말잇기 게임 -</p>
+                    <p class="game-word">현재 단어: <span></span></p>
+                    <p class="game-description"></p>
+                    <div class="game-input-wrap">
+                        <input type="text" placeholder="단어를 입력하세요" />
+                        <button class="submit-btn">입력</button>
+                    </div>
+                </div>
+            </section>
+            <section class="game-ready-wrap">
+                <div class="game-ready-box">
+                    <h2>- 끝말잇기 게임 -</h2>
+                    <p>제한시간안에 단어를 입력하세요!</p>
+                    <p>단어를 3번 틀리면 게임이 끝납니다.</p>
+                    <button class="start-btn">시작하기</button>
+                </div>
+            </section>
+            <section class="game-result-wrap hidden">
+                <div class="game-result-box">
+                    <h2>게임 종료!</h2>
+                    <p>획득 점수</p>
+                    <p class="game-result-score">70</p>
+                    <p>최고 점수</p>
+                    <p class="game-high-score">70</p>
+                    <button class="retry-btn">다시 하기</button>
+                </div>
+            </section>
+            <footer class="game-footer"></footer>
+        </div>
+    </body>
+</html>
